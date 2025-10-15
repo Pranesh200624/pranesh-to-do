@@ -1,0 +1,58 @@
+/* Contact Page Styling - Isolated, No Global Effect */
+
+.contact-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+.contact-container h1 {
+  color: #00bfff;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.contact-container img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #00bfff;
+  margin-bottom: 20px;
+}
+
+.contact-description {
+  color: #ccc;
+  font-size: 1.1rem;
+  margin: 10px 0 20px 0;
+}
+
+.contact-info {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 15px;
+  border-radius: 8px;
+  color: #eee;
+  font-size: 1rem;
+  margin-bottom: 25px;
+}
+
+.contact-info p {
+  margin: 6px 0;
+}
+
+.contact-social h3 {
+  color: #00bfff;
+  margin-bottom: 10px;
+}
+
+.contact-social ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-social li {
+  margin: 5px 0;
+  color: #bbb;
+}
