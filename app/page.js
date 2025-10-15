@@ -6,13 +6,11 @@ function Home() {
     <div className="home-container">
       <h1>Welcome to the Home Page</h1>
       
-      import Image from "next/image";
-
-<Image
+      <image
   src="https://i.pinimg.com/736x/25/53/6e/25536e8e5da1ef9712658b5525375ca8.jpg"
   alt="Home"
-  width={400}     // Set real width
-  height={400}    // Set real height
+  width={400}
+  height={400}
   className="home-image"
 />
 
