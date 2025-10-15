@@ -6,11 +6,15 @@ function Home() {
     <div className="home-container">
       <h1>Welcome to the Home Page</h1>
       
-      <img 
-        src="https://i.pinimg.com/736x/25/53/6e/25536e8e5da1ef9712658b5525375ca8.jpg" 
-        alt="Home" 
-        className="home-image"
-      />
+      import Image from "next/image";
+
+<Image
+  src="https://i.pinimg.com/736x/25/53/6e/25536e8e5da1ef9712658b5525375ca8.jpg"
+  alt="Home"
+  width={400}     // Set real width
+  height={400}    // Set real height
+  className="home-image"
+/>
 
       <p className="home-description">
         This is your personal space where you can explore tasks, manage goals, 
