@@ -5,23 +5,21 @@ import "./About.css";
 function About() {
   return (
     <div className="about-page">
-      <h1>About Us</h1>
+      <h1>This is About Page</h1> <br /><br />
       <img
-        src="https://media.istockphoto.com/id/1400739452/vector/about-us-web-header-design-icon-interconnected-symbol-of-company-profile-corporate.jpg?s=612x612&w=0&k=20&c=-zgp-xnEqh8zBEjNajlPZmDF5PXuqlXVUu7RjBf_UGU="
+        src="https://media.istockphoto.com/id/1221653457/photo/close-up-of-a-touchscreen-social-media-concept.jpg?s=612x612&w=0&k=20&c=thcgiLGWFoRNMrMiDXDGUGPy50i9jhXhiHSy-vokyqI="
         alt="About"
         className="about-image"
-      />
+      /><br /> <br />
       <p className="about-message">
-        Welcome to our platform! We are passionate about delivering high-quality solutions and services
-        to our customers. Our team is dedicated, innovative, and always eager to help.
-      </p>
+       "Welcome! We’re committed to providing top-quality solutions and services. Our team is innovative, dedicated, and always ready to assist.
+      </p> <br />
       <p className="about-message">
-        Our mission is to make technology accessible and enjoyable for everyone. We value trust,
-        creativity, and excellence in everything we do.
-      </p>
+        Our mission is to make technology simple, accessible, and enjoyable for everyone. We value trust, creativity, and excellence in all we do.
+      </p><br />
       <p className="about-message">
-        Feel free to reach out to us anytime — your feedback and questions are always welcome!
-      </p>
+        Have questions or feedback? Don’t hesitate to reach out — we’re here to help!"
+      </p><br />
     </div>
   );
 }

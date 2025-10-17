@@ -5,7 +5,6 @@
   margin: 40px auto;
   padding: 30px;
   text-align: center;
-  background: rgba(255, 255, 255, 0.05);
   border-radius: 10px;
 }
 
@@ -19,8 +18,8 @@
   width: 250px;
   height: auto;
   border-radius: 10px;
-  border: 2px solid #00bfff;
   margin-bottom: 20px;
+  width: 400px;height: 200px;
 }
 
 .contact-description {
@@ -30,7 +29,6 @@
 }
 
 .contact-info {
-  background: rgba(255, 255, 255, 0.08);
   padding: 15px;
   border-radius: 8px;
   color: #eee;
@@ -43,7 +41,7 @@
 }
 
 .contact-social h3 {
-  color: #00bfff;
+  color:#272cc9;
   margin-bottom: 10px;
 }
 

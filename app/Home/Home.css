@@ -25,7 +25,7 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background-color: #00bfff;
+  background-color: #000000;
   color: white;
   font-size: 1rem;
 }
@@ -39,7 +39,7 @@
 }
 
 .home-section h2 {
-  color: #00bfff;
+  color: #272cc9;
   margin-bottom: 10px;
 }
 
